@@ -349,6 +349,23 @@ a:focus {
 /*------------------------------------*\
   #COMPONENTS
 \*------------------------------------*/
+.c-logo {
+    height: 32px;
+}
+
+.c-logo__symbol {
+
+height:100%;
+}
+
+@media (min-width: 768px) {
+    .c-logo__symbol {
+    }
+    .c-logo {
+        height: 40px;
+    }
+}
+
 
 /*------------------------------------*\
   #UTILITIES
