@@ -191,10 +191,17 @@ a:focus {
 }
 
 .o-section {
+
+    
+   
+   
+   
 }
 
 .o-section + .o-section {
     margin-top: 24px;
+    
+    
 }
 
 @media (min-width: 768px) {
@@ -222,6 +229,12 @@ a:focus {
     padding: 24px 24px 0;
     display: flow-root;
 }
+
+.o-row—neutral-x-light {
+    background:#F7F7F7;
+}
+
+
 
 /* size modifiers */
 
@@ -327,6 +340,7 @@ a:focus {
 
 .o-layout--justify-space-evenly {
     justify-content: space-evenly;
+    
 }
 
 .o-layout--justify-space-between {
