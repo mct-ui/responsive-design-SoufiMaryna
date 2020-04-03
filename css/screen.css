@@ -244,6 +244,10 @@ a:focus {
     background:#F7F7F7;
 }
 
+.o-row--gradient {
+    background: linear-gradient(to top right, powderblue, pink);
+}
+
 
 
 /* size modifiers */
@@ -613,6 +617,20 @@ height:100%;
     transform: scaleX(1);
     background-color:greenyellow;
 }
+
+.c-link-cta-inverse,
+.c-link-cta-inverse:visited,
+.c-link-cta-inverse:active {
+    color: #fff;
+}
+.c-link-cta-inverse:after {
+    background-color:#fff;
+}
+.c-link-cta-inverse:hover::after {
+    background-color: #fff;
+}
+
+
 
 
 
